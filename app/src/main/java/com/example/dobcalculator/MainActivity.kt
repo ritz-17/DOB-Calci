@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         tvAgeInMinutes = findViewById(R.id.tvAgeInMinutes)
 
         btnDatePicker.setOnClickListener {
-            Toast.makeText(this, "Ok", Toast.LENGTH_SHORT).show()
+
 
             clickDatePicker()
         }
