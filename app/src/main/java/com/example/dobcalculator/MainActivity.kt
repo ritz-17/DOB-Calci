@@ -1,7 +1,7 @@
 package com.example.dobcalculator
 
 import android.app.DatePickerDialog
-import androidx.appcompat.app.AppCompatActivity 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         tvAgeInMinutes = findViewById(R.id.tvAgeInMinutes)
 
         btnDatePicker.setOnClickListener {
+            Toast.makeText(this, "Ok", Toast.LENGTH_SHORT).show()
 
             clickDatePicker()
         }
